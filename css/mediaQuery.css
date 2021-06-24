@@ -1,0 +1,89 @@
+
+@media (max-width:1024px){
+    #particles-js{
+        width: 95%;
+    }
+    .section-title h2::after{
+        left: 46%;
+    }
+    .about-text h2{
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width:768px){
+    #particles-js{
+        width: 95%;
+    }
+    #content .text1{
+        font-size: 52px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+
+    .section-title h2::after{
+        left: 44.5%;
+    }
+    .about-text h2{
+        width: 80%;
+    }
+    
+    .skill-items h2{
+        width: 45%;
+    }
+}
+
+@media (max-width:540px){
+    #particles-js{
+        width: 95%;
+    }
+    .section-title h2::after{
+        left: 41%;
+    }
+    .about-text h2{
+        width: 70%;
+    }
+    
+    .skill-items h2{
+        width: 40%;
+    }
+}
+
+@media (max-width: 375px){
+    .section-title h2::after{
+        left: 39%;
+    }
+    #particles-js{
+        width:95%;
+    }
+    .about-text h2{
+        width: 88%;
+    }
+    
+    .skill-items h2{
+        width: 50%;
+    }
+}
+ 
+@media (max-width:280px){
+    #particles-js{
+        width:90%;
+    }
+    .section-title h2::after{
+        left: 35%;
+    }
+
+    .about-text h2{
+        width: 110%;
+    }
+    
+    .skill-items h2{
+        width: 60%;
+    }
+    .dropdown-social-links-2{
+        display: flex;
+        justify-content: space-around;
+    }
+} 

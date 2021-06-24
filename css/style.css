@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    text-transform: capitalize;
+} */
+
+html,body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    /* color: #fff; */
+}
+/* ////color for my hamburger */
+#c-crimson{
+    color: #fff;
+    background: crimson;
+    border: none;
+}/* ////color for my hamburger */
+#crimson{
+    color: crimson;
+}
+
+/* ///// FOR MY NAVBAR */
+.drop img{
+    width: 70px;
+    border: 2px solid crimson;
+    margin: 0 2rem;
+}
+.navbar{
+    transition: all 0.5s ease;
+}
+.navbar.sticky{
+    background: #fff;
+}
+.navbar .logo a{
+    color: #fff;
+}
+.navbar .logo a:hover{
+    color: crimson;
+    transition: 0.5s;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar.sticky .logo a{
+    color:crimson;
+}
+
+.dropdown li a:hover{
+    color: crimson;
+    transition:  0.5s ease-in-out;
+
+    /* /////MY NAVBAR STYLING ENDS HERE */
+}
+
+
+#menu-toggle {
+    z-index: 999;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #a43f49;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+}
+
+.menu-close {
+  cursor: pointer;
+}
+
+#menu-close {
+    cursor: pointer;
+    text-align: right;
+    color: #a43f49;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+}
+
+.section-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 85px;
+    height: 3px;
+    margin-top: 5px;
+    background: crimson;
+    /* bottom: 0; */
+    left: 47%;
+}
+
+/* ///HOME SECTION */
+
+.arrow{
+    color: crimson;
+}
+
+#content{
+    position: relative;
+}
+#content .text1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+/* #content .text2{
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: -3px;
+} */
+
+#content .text2{
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+#content .text2 span{
+    color: crimson;
+    font-weight: 500;
+    
+}
+.btn-home{
+    border: 2px solid white;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    position: relative;
+}
+.btn-home:hover{
+    color: #ffffff;
+    background-color: crimson;
+    border: none;
+    transition: 0.5s;
+}
+    /* ///HOME SECTION ENDED*/
+
+    /* /right side scroll up button/ */
+.scroll-up-btn{
+    position: fixed;
+    height: 40px;
+    width: 30px;
+    background-color: crimson;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events:none;
+    transition: all 0.5s ease;
+}
+
+.scroll-up-btn.show{
+    bottom: 38px;
+    opacity: 1;
+    pointer-events: fill;
+     /* /right side scroll up button ended / */
+}
+
+/* //////ABOUT SECTION */
+.about-text h2{
+    width: 55%;
+    height: 40px;
+    padding: 5px;
+}
+
+.skill-items h2{
+    width: 30%;
+    height: 40px;
+}
+.cv-btn{
+    margin:0 0 0 5rem ;
+}
+
+
+/* //////SERVICES SECTION */
+#services{
+    background:#f6f7fa;
+}
+#box{
+    transition: all 300ms ease-in-out;
+    text-align: center;
+    background: #fff;
+}
+
+#box:hover{
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0,0.1);
+    transform: translateY(-3rem);
+}
+
+
+/* MY WORKS*/
+
+.my-works-wrapper {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+
+.my-works-item img {
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.lazyload {
+    background: #f7f7f7;
+}
+
+.lazyloading {
+    background: #f7f7f7 url(//afarkas.github.io/lazysizes/assets/imgs/loader.gif) no-repeat center;
+    min-height: 60px;
+}
+
+figure.snip1321 {
+  overflow: hidden;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+}
+figure.snip1321 * {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+figure.snip1321 figcaption {
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+figure.snip1321 h4 {
+    margin-top: 15px;
+  margin-bottom: 5px;
+  color: #232323;
+}
+figure.snip1321 span {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+    color: #7a7a7a;
+}
+figure.snip1321 i {
+  position: relative!important;
+  font-size: 18px;
+  background-color: crimson;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #fff;
+}
+figure.snip1321:after {
+  background-color: #ffffff;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+figure.snip1321 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+figure.snip1321:hover figcaption,
+figure.snip1321.hover figcaption {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1321:hover:after,
+figure.snip1321.hover:after {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  opacity: 0.9;
+}
+
+/* footer */
+.dropdown-social-links-2 i{
+    color: crimson !important;
+    transition: 0.5s ;
+}
+
+.dropdown-social-links-2 i:hover{
+    color: #fff !important;
+    transition:0.5s;
+}
+
+/* ///////FOOTER ENDED */
+
+
+
