@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="icons/boxicons/css/boxicons.css">
+    <link rel="stylesheet" href="icons/fontawesome/css/all.css">
+
+    <!-- linkings -->
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.css"><!--offline boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script><!--for typing feature on home-->
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+
+    <!-- my custom styling -->
+    <link rel="stylesheet" href="css/pat.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/testimony.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+
+</head>
+<body>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    
+    <!-- navbar starts-->
+    <header class="navbar navbar-light fixed-top " id="header">
+        <div class="container-lg text-capitalize" id="">
+            <div class="logo ">
+                <a class="navbar-brand fw-bold fs-1" href="#home">vicky<span >web</span></a>
+            </div>
+            <nav class="dropdown">
+                <button id="c-crimson" class="btn text-white px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                
+                    <div class="drop">
+                        <img class="img-fluid rounded-circle " src="images/h-image.jpg" alt="">
+                        <h1 class="text-center"><a id="crimson" href="index.html">victor</a></h1>
+                        <div class="dropdown-social-links mt-3 text-center">
+                            <a class="twitter" href="https://www.facebook.com/chibuike.victor.752" target="_blank"><i class="bx bxl-twitter m-1 fs-5" id="crimson"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/chibuike.victor.752" target="_blank"><i class="bx bxl-facebook m-1 fs-5" id="crimson"></i></a>
+                            <a class="instagram" href="https://www.facebook.com/chibuike.victor.752" target="_blank"><i class="bx bxl-instagram m-1 fs-5" id="crimson"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/in/madubuko-victor-7097571b3" target="_blank"><i class="bx bxl-linkedin  m-1 fs-5" id="crimson"></i></a>
+                        </div>
+                    </div>
+
+                    <li><a href="#home" class="dropdown-item"><i class="bx bx-home m-2"></i> home</a></li>
+                    <li><a href="#about" class="dropdown-item"><i class="bx bx-user m-2"></i>about</a></li>
+                    <li><a href="#services" class="dropdown-item"><i class="bx bx-server m-2"></i>services</a></li>
+                    <li><a href="#my-works" class="dropdown-item"><i class="bx bx-book-content m-2"></i>my works</a></li>
+                    <li><a href="#testimonials" class="dropdown-item"><i class="bx bx-envelope m-2"></i>testimonials</a></li>
+                    <li><a href="#contact" class="dropdown-item"><i class="bx bx-group m-2"></i>contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- navbar ends here -->
+
+    <!-- section home starts -->
+    <style>
+        #home{
+            /* background:url(images/download.png); */
+            background-color: #232741;
+            /* background-size: cover;
+            background-repeat: no-repeat; */
+            overflow-x: hidden;
+        }
+
+    </style>
+
+
+    <section class="home py-5 " id="home">
+        <div class="container-lg ">
+        
+            <!-- particles.js container --> 
+            <div id="particles-js"></div>
+            <!-- stats - count particles -->
+            <!-- <div class="count-particles"> <span class="js-count-particles"></span>  </div>  -->
+
+
+      
+            <div class="row  min-vh-100 align-items-center align-content-center">
+                <div class="text-capitalize col-md-12 mt-5 mt-md-0 text-white text-center" id="content">
+
+                    <div class="text1 ">hello, i'm victor kingsley</div>
+                    <!-- <div class="text2">victor kingsley,</div> -->
+                    <div class="text2">and i'm a <span class="typing"></span></div>
+                    <a href="#my-works" class="btn px-3 fs-5 mt-3 me-4 btn-home">view my works<i class="fas fa-arrow-right arrow  ms-3"></i></a>
+                    <a href="#contact" class="btn px-2 fs-5 mt-3 btn-home">contact me<i class="fas fa-arrow-right arrow ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <main id = main>
+        <section  class="about py-4" id="about" >
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 id="crimson" class=" fs-1 fw-bolder mb-5 text-capitalize">about</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 ">
+                        <div class="section-title about-text">
+                            <h3 class=" fs-4 mb-2 ">Hi, I'm Victor. Nice to meet you..</h3>
+                            <p class="about-p fs-5">
+                                I am a dedicated freelance web development expert, with over 5+ years of experiences in the wide range of development disciplines.
+                                I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use.
+                            </p>
+                            
+                            <p class="about-p ">
+                                <p class="fs-5">
+                                    I have done work in software development, mobile app creation, graphic design, database/server management, and front-end/back-end web development.
+                                    I've also written series of persuasive and engaging contents that have skyrocketed my clients' business.
+                                </p>
+                                <p class="fs-5">
+                                    It may also interest you to know that I have Bacherlor of Science Degree in Computer Science, from Abia State University,Uturu(Nigeria).
+                                </p>
+                                <p class="fs-5">
+                                    I don't like to define myself by the work I've done. I define myself by the work(s) I want to do.
+                                    Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
+                                </p>
+
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3 about-img">
+                        <img src="images/m-image.jpeg" class="img-fluid" alt="">
+                    </div>
+                    
+                    <div class="col-md-6 about-text">
+                        <div class="about-text px-4">
+                            <h2 id="c-crimson" class="fs-4  mb-2 text-capitalize text-center ">
+                                personal information
+                            </h2>
+                            <p>
+                               <h6><strong>Name:</strong> Madubuko Victor Chibuike</h6>
+                               <h6><strong>Phone Number:</strong> 08147459459</h6>
+                               <h6><strong>Email Address:</strong> madubuko6@gmail.com</h6>
+                               <h6><strong>Address:</strong> Enugu State, Nigeria</h6>
+                               <h6><strong>Relationship Status:</strong> Single</h6>
+                            </p>
+                            
+                        </div>
+                        <div class="skill-items px-4 mt-4 ">
+                            <h2 class="text-capitalize text-center fs-4" id="c-crimson">my skills</h2>
+                            <div class="mt-3 mb-4">
+                                <h3 class="fs-6 text-uppercase">front-end (html, css, bootstrap, js).</h3>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar"id="c-crimson" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                  </div>
+                                  
+                                </div>
+                            <div class="mt-3 mb-4">
+                                <h3 class="fs-6 text-uppercase">back-end(php).</h3>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar"id="c-crimson" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                  
+                            </div>
+                            <div class="mt-3 mb-4">
+                                <h3 class="fs-6 text-uppercase">graphics(corel-draw, photoshop).</h3>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar"id="c-crimson" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                  
+                            </div>
+                            <div class="mt-3 mb-4">
+                                <h3 class="fs-6 text-uppercase">copywriting</h3>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar"id="c-crimson" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                  
+                            </div>
+                            <div class="mt-3 mb-4">
+                                <h3 class="fs-6 text-uppercase">wordpress</h3>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar"id="c-crimson" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                  
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row about-btn">
+                    <div class="col-lg-12 ">
+                        <a href="images/CV.pdf" download="images/CV.pdf" id="c-crimson" class="cv-btn btn px-3 mt-2 text-uppercase"><i class="fas fa-download"></i>download cv</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- //////////SERVICES SECTION STARTS -->
+        <section class="services py-3"  id="services" >
+            <div class="container-lg py-4" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 id="crimson" class="fw-bold mb-5">Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center" id="service-box">
+                    <div class="col-md-6 col-lg-4 mb-4 serve-serve1" >
+                        <div id="box" class="service-item shadow-sm p-4 rounded">
+                            <div class="icon my-3 fs-2" id="crimson">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Web Development</h3>
+                            <p class="">
+                                I believe in bringing my imagination to visual reality.
+                                With strong user behaviour understanding I design with an approach that leaves impact on the user's mind and can be operated with minimal hassles.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  mb-4 serve-serve2" >
+                        <div id="box" class="service-item shadow-sm p-4 rounded ">
+                            <div class="icon my-3 fs-2" id="crimson">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Copywriting / SEO</h3>
+                            <p class="">
+                                With my efficient writting skills, I generate leads and engage prospects for my clients. 
+                                I can increase your online visibility, brand awareness and establish your company in local search to help you drive sales.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4  mb-4 serve-serve3">
+                        <div  id="box" class="service-item shadow-sm p-4 rounded ">
+                            <div class="icon my-3 fs-2" id="crimson">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">UI/UX DESIGN</h3>
+                            <p class="">A considerable amount of time and effort goes into building a stellar UX designer portfolio. 
+                                If the right type of content is chosen with great UX, it will be a worthy investment.
+                            </p>
+                            <!-- <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////SERVICES SECTION ENDED/////////// -->
+        </section>
+        
+        <!-- ///////MY WORKS SECTION STARTS///////////// -->
+        <section class="section my-works" data-section="section3" id="my-works">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 id="crimson" class="fw-bold mb-3 mt-5">My Works</h2>
+                            <div class="line-dec"></div>
+                            <span class="" >
+                                Here are a few design projects I've worked on recently.
+                                Feel free to take a look them.
+                            </span >
+                        </div>
+                    </div>
+              </div>
+              
+                <div class="my-works-wrapper">
+                    <div class="mt-5 row my-works-box">
+
+                        <div class="my-works-item col-md-6 col-lg-4">
+                            <figure class="snip1321">
+                                <img src="images/port-5.jpeg" alt=""/>
+                                <figcaption>
+                                    <a
+                                    href="images/port-5.jpeg"
+                                    data-lightbox="image-1"
+                                        data-title="Caption">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <h5>Affixkoin</h5>
+                                    <span><h4><a href="https://affixkoin.com/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        
+                        <div class="my-works-item col-md-6 col-lg-4">
+                            <figure class="snip1321">
+                              <img src="images/port-4.jpeg" alt="" />
+                              <figcaption>
+                                  <a
+                                  href="images/port-4.jpeg"
+                                  data-lightbox="image-1"
+                                  data-title="Caption" >
+                                        <i class="fa fa-search"></i >
+                                        </a>
+                                        <h5>Gambhome</h5>
+                                    <span><h4><a href="http://gambhome.org/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+      
+                        <div class="my-works-item col-md-6 col-lg-4" >
+                            <figure class="snip1321">
+                                <img src="images/port-1.jpeg" alt="" />
+                                <figcaption>
+                                    <a
+                                    href="images/port-1.jpeg"
+                                        data-lightbox="image-1"
+                                        data-title="Caption" >
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <h5>Procryptominers</h5>
+                                    <span><h4><a href="http://procryptominers.com/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+      
+                        <div class="my-works-item col-md-6 col-lg-4">
+                            <figure class="snip1321">
+                                <img src="images/port-3.jpeg" alt=""/>
+                                    <figcaption>
+                                    <a
+                                    href="images/port-3.jpeg"
+                                        data-lightbox="image-1"
+                                        data-title="Caption">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <h5>Maximoney</h5>
+                                    <span><h4><a href="http://maximoney.co.uk/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+      
+                        <div class="my-works-item col-md-6 col-lg-4" >
+                            <figure class="snip1321">
+                                <img src="images/port-2.jpeg" alt="" />
+                                <figcaption>
+                                    <a
+                                        href="images/port-2.jpeg"
+                                        data-lightbox="image-1"
+                                        data-title="Caption">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <h5>Stansellminers</h5>
+                                    <span><h4><a href="http://stansellminers.com/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        
+                        <div class="my-works-item col-md-6 col-lg-4">
+                            <figure class="snip1321">
+                              <img src="images/port-3.jpeg" alt="" />
+                                    <figcaption>
+                                    <a
+                                    href="images/port-3.jpeg"
+                                    data-lightbox="image-1"
+                                        data-title="Caption">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <h5>Maximoney</h5>
+                                    <span><h4><a href="http://maximoney.co.uk/" target="_blank">Click to view</a></h4></span>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div id="more" class="section-title text-center">
+                                    <h4>Want to see more? <a href="#contact" id="crimson" class="btn btn-outline-dark  fs-5 ">Email me</a></h4> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ///////PORTFOLIO SECTION ENDED///////////// -->
+        
+        <!-- ///FREELANCER AVAILABLE SECTION -->
+        <section class="freelancer-available py-5" id="c-crimson">
+            <div class="container-lg " >
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="fs-5">Do you have any project?</p>
+                        <h2 class="fs-1 mb-4">I'm Available For Freelancer Projects</h2>
+                        <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        
+        <!-- /////TESTIMONIALS SECTION START ///-->
+        <section class="testimonials py-5" id="testimonials">
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2  id="crimson" class="test-title fw-bold mb-5">Testimonials</h2>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="images/team-1.jpg" class="testimonial-img" alt="">
+                                <h3>Saul Goodman</h3>
+                                <h4>Founder; Delight hotel & resort</h4>
+                                <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    The Landscaping was quick, courteous and very helpful. 
+                                    He helped me restore my lawn and gardens completely after putting in my deck. 
+                                    I was worried it wouldn’t be done in time for my garden party, but then, he finished the job with time to spare!
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="images/team-2.jpg" class="testimonial-img" alt="">
+                                <h3>Sara Wilsson</h3>
+                                <h4>Fashionist</h4>
+                                <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    The best decision i ever made is giving Vickyweb the opportunity to handle my Fashion website.
+                                    I have no atom of regrets and I recommend him.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="images/team-3.jpeg" class="testimonial-img" alt="">
+                                <h3>Mr Valentine</h3>
+                                <h4>Ceo &amp; Founder; Keruxtech</h4>
+                                <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Hey Vickyweb; It was indeed great working with you, having you as a team makes every project easy.
+                                    Our partnership continues, looking forward to doing more projects with you.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="images/team-4.jpg" class="testimonial-img" alt="">
+                                <h3>Queens School</h3>
+                                <h4>Citadel of Academics</h4>
+                                <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Vickyweb helped us discover what we're really made of.
+                                    He helped us take the Academy to the culmination. He meticulously worked for our school.
+                                    God bless you Vickyweb
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="images/team-5.jpeg" class="testimonial-img" alt="">
+                                <h3>Collins Mills</h3>
+                                <h4>Web Developer</h4>
+                                <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    When I realized I had a bug problem, it was out of control. 
+                                    I needed a professional developer immediately. Vickyweb gave me a quick attention and the error was debugged  —I would definitely recommend him.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+            <!-- /////TESTIMONIALS SECTION END//// -->
+        </section>
+        
+        <!-- //Count SECTION -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row" data-aos="fade-up">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="count-box">
+                        <i class="fas fa-smile"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="332" data-purecounter-duration="10" class="purecounter"></span>
+                        <p>Happy Clients</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                        <div class="count-box">
+                        <i class="fas fa-briefcase"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="401" data-purecounter-duration="10" class="purecounter"></span>
+                        <p>Projects</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                        <i class="fas fa-tasks"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="8" class="purecounter"></span>
+                        <p>Hours Of Support</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Counts Section -->
+
+        
+        <!-- /////CONTACT SECTION -->
+        <section class="contact py-5" id="contact">
+            <div class="container-lg">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 id="crimson" class="fw-bold mb-4">Contact</h2>
+                            <p class="fs-4 fw-bold">Wanna get in touch or talk about a project?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-lg-12 map">
+                                <div class="contact-item d-flex mb-2">
+                                    <div class="icon" id="crimson">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="text ms-3">
+                                        <h3 class="fs-5">Email</h3>
+                                        <p class="text-muted">madubuko6@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item d-flex mb-2">
+                                    <div class="icon" id="crimson">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="text ms-3">
+                                        <h3 class="fs-5">Phone</h3>
+                                        <p class="text-muted">08147459459</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item d-flex mb-2">
+                                    <div class="icon" id="crimson">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="text ms-3">
+                                        <h3 class="fs-5">Address</h3>
+                                        <p class="text-muted">Enugu State, Nigeria</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- //Google Map -->
+                        <div class="row mb-5">
+                            <div class="col-lg-12">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8069790.435797271!2d8.677456999999999!3d9.0338725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1618093151578!5m2!1sen!2sng" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="contact-form">
+                            <form  action="" method="post">
+                                <div class="row">
+                                    <div class="col-lg-6 mb-4">
+                                        <input type="text" name="name" placeholder="Your Name" class=" abc form-control form-control-lg fs-6 border-1 shadow-sm user">
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <input name="email" type="email" placeholder="Your Email" class=" abc form-control form-control-lg fs-6 border-1 shadow-sm email"> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-4">
+                                        <input name="subject" type="text" placeholder="Subject" class=" abc form-control form-control-lg fs-6 border-1 shadow-sm"> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-4">
+                                        <textarea rows="5" name="message" placeholder="Your message" class=" abc form-control form-control-lg fs-6 border-1 shadow-sm"></textarea> 
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" name="submit" id="c-crimson" class="btn px-3 text-capitalize contact-submit-btn">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ///////CONTACT SECTION ENDED -->
+        </section>
+
+
+        <!-- /////FOOTER -->
+        <style>
+            .footer{
+                color: #fff;
+                background:url(images/francesco-ungaro-jqKS0ET-wGE-unsplash.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 40vh;
+            }
+        </style>
+        
+        
+        <footer class="footer py-">
+            <div class="container-lg ">
+                <div class="row mb-5 p-2">
+                    <div class="col-lg-12 text-center" >
+                        <h3 class="fs-3 "id="footer">Follow me on social media</h3>
+                        <div class="dropdown-social-links-2 mt-4">
+                            <a href="https://www.facebook.com/chibuike.victor.752" target="_blank" class="twitter"><i class="bx bxl-twitter me-5 fs-1"></i></a>
+                            <a href="https://www.facebook.com/chibuike.victor.752" target="_blank" class="facebook"><i class="bx bxl-facebook me-5 fs-1"></i></a>
+                            <a href="https://www.facebook.com/chibuike.victor.752" target="_blank" class="instagram"><i class="bx bxl-instagram me-5 fs-1"></i></a>
+                            <a href="https://www.linkedin.com/in/madubuko-victor-7097571b3" target="_blank" class="linkedin"><i class="bx bxl-linkedin fs-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <p class="m-0 text-center ">&copy; 2020 Vickyweb</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            
+            
+            
+        <script src="js/jquery.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> <!--for  feature -->
+        <script src="https://unpkg.com/scrollreveal"></script> <!--for scroll reveal feature-->
+        <script src="vendors/swiper/swiper-bundle.min.js"></script> <!--for swiper feature used in testimonials -->
+        <script src="vendors/purecounter/purecounter.js"></script> <!--for counter feature used in counter-->
+        <script src="particles/particles.js"></script>
+
+        <!-- my custom js are as follows -->
+        <script src="js/pat.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/swipe.js"></script>
+        <script src="js/reveal.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/lightbox.js"></script>
+    
+    </main>    
+</body>
+</html>
+    
+    
